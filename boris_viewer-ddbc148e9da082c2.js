@@ -1354,7 +1354,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('boris_viewer-91f19f034347e3eb_bg.wasm', import.meta.url);
+        input = new URL('boris_viewer-ddbc148e9da082c2_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
